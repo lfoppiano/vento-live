@@ -1,0 +1,8 @@
+Phase:  CopyReviewTextSpan
+Input:  text
+Options: control = all
+
+Rule: text
+( ({text}):span )
+-->
+:span.Review = {}

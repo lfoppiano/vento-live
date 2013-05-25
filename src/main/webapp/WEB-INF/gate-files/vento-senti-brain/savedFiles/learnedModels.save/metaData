@@ -1,0 +1,8 @@
+9590 #numTrainingDocs
+5 #numClasses
+0 #numNullLabelInstances
+4827 #totalFeatures
+/Users/lfoppiano/develop/bi/vento-web/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles/learnedModels.save #modelFile
+PAUM #learnerName
+null #learnerExecutable
+ -p 50 -n 1 -optB 0.0   #learnerParams

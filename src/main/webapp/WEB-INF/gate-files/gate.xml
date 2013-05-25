@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- gate.xml: GATE configuration data -->
+<GATE>
+
+<!-- NOTE: the next element may be overwritten by the GUI!!! -->
+<GATECONFIG Known_plugin_path=""
+ Load_plugin_path=""
+ Look_and_Feel="com.apple.laf.AquaLookAndFeel"
+ Main_frame_height="774"
+ Main_frame_maximized="true"
+ Main_frame_width="1280"
+ Menus_font="Arial Unicode MS#12#false#false"
+ Other_components_font="Arial Unicode MS#12#false#false"
+ Save_options_on_exit="true"
+ Save_session_on_exit="true"
+ Text_components_font="Arial Unicode MS#12#false#false"
+ docedit_insert_append="true"
+ gate.gui.MainFrame.datastoretype="SerialDataStore: file-based storage using Java serialisation"
+ gate.gui.docview.AnnotationSetsView.colours="{body=-2141562113, tr=-2144534559, link=-2130760660, score=-2130748838, div=-2141519873, img=-2144542239, noscript=-2130714324, td=-2132672724, br=-2130748673, meta=-2138644180, th=-2144565535, title=-2132703519, style=-2132703700, twit=-2130706598, h4=-2144542420, head=-2132680404, option=-2138690335, text=-2141520038, ul=-2134228715, b=-2130706598, form=-2132726740, select=-2138643999, a=-2141520038, Review=-2141562113, table=-2144534740, Token=-2141519873, script=-2130760479, SpaceToken=-2130748673, i=-2132726559, li=-2146055659, input=-2134239979, Split=-2141520038, strong=-2143172075, Sentence=-2130748838, html=-2144588575, comment=-2130748838, span=-2131290859}"
+ gate.gui.docview.AnnotationSetsView.types="[FeaturedReview.Review, FeaturedReviews.Review, Output.comment, Output.Review, Key.comment, Key.Review, Original markups.Review]"
+ gate.swing.XJFileChooser="{lastapplication=/Users/Martin/IdeaProjects/gate-batch-learning/src/test/resources/gate-project-training/altTutorialConfig.xml, application.corpusPipeline=/Users/Martin/Desktop/learningTest/batch_learning_simpleVersion.xml, gate.persist.SerialDataStore=/Users/Martin/Desktop/learningTest/batchLearningSerializedDatastore, gate.corpora.DocumentImpl=/Users/Martin/Desktop/learningTest/batch_learning.xml, gate.corpora.CorpusImpl=/Users/Martin/Desktop/tutorialTraining, application.BatchLearningCCPL=/Users/Martin/IdeaProjects/gate-batch-learning/src/test/resources/gate-project-training/altTutorialConfig.xml, gate.corpora.SerialCorpusImpl=/Users/Martin/Desktop/learningTest/realLearningInput, gate.creole.Transducer=/Users/Martin/Desktop/learningTest/copy_comment_spans.jape, applications=BatchLearningCCPL;corpusPipeline;, application.zip.BatchLearningCCPL=/Users/Martin/IdeaProjects/gate-batch-learning/src/test/resources/gate-project-training/altTutorialConfig.zip, application.zip.corpusPipeline=/Users/Martin/Desktop/learningTest/batch_learning_simpleVersion.zip, gate.learning.LearningAPIMain=/Users/Martin/Desktop/batchLearningPR_simple_version/kknWeka.xml}"
+/>
+
+</GATE>

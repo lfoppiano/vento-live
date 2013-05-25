@@ -1,0 +1,22 @@
+Phase:firstpass
+Input: score text
+Options: control = brill
+
+Rule: Review
+(
+{text}{score}
+):review
+-->
+{  
+	AnnotationSet scoreSet = bindings.get("review");
+	Iterator iter = scoreSet.iterator();
+	iter.next();
+	Annotation scoreAnn = (Annotation)iter.next();
+	scoreSet.remove(scoreAnn);
+
+	FeatureMap features = Factory.newFeatureMap();  
+ 
+	features.put("score", gate.Utils.stringFor(doc, scoreAnn).substring(0,1)+"_Star_Review");
+ 
+	outputAS.add(scoreSet.firstNode(), scoreSet.lastNode(), "Review",  features);
+}

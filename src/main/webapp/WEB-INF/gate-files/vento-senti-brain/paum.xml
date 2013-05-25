@@ -1,0 +1,46 @@
+<?xml version="1.0"?>  
+<ML-CONFIG>  
+  <VERBOSITY level="0"/>
+  <SURROUND value="false"/>
+  <PARAMETER name="thresholdProbabilityClassification" 
+	     value="0.7"/> <!-- test with values 0.6, 0.7, 0.8 (0.9 or 1 might be too much) -->
+  <multiClassification2Binary method="one-vs-others" thread-pool-size="5"/>
+  <EVALUATION method="kfold"
+	      runs="5"
+	      ratio="0.66" />
+  <ENGINE nickname="PAUM"
+	  implementationName="PAUM"
+	  options=" -p 50 -n 1 -optB 0.0  "/>          <!-- tested those params with batches of 500 docs per class, after a couple of cycles (5-6) all results more than 70% and rising-->
+  <DATASET>                                        <!-- params: " -p 80 -n 1 -optB 0.0 " with batches of 1000 per class give also good results, after 3 cycles all results more than 80% but 1.0 falling down, to be tested-->
+    <INSTANCE-TYPE>Review</INSTANCE-TYPE>  
+    <NGRAM>
+    	<NAME>ngram</NAME>
+    	<NUMBER>1</NUMBER> <!-- I suspect that it's better to have more CONS-N parameters than this number more than 1, to be confirmed -->
+    	<CONSNUM>3</CONSNUM> <!-- change this while testing more features from below -->
+    	<CONS-1>
+		    <TYPE>Token</TYPE>
+		    <FEATURE>root</FEATURE>
+    	</CONS-1>
+        <CONS-2>
+            <TYPE>Token</TYPE>
+            <FEATURE>orth</FEATURE>
+        </CONS-2>
+        <!--<CONS-3>
+            <TYPE>Token</TYPE>
+            <FEATURE>string</FEATURE>
+        </CONS-3>-->
+        <CONS-3>
+            <TYPE>Token</TYPE>
+            <FEATURE>category</FEATURE>
+        </CONS-3> <!-- once we are sure which numbers from above are the best, it's important to play around with this NGRAM part and see if that can further improve something -->
+    </NGRAM>
+    <ATTRIBUTE>  
+        <NAME>Class</NAME>  
+        <SEMTYPE>NOMINAL</SEMTYPE>  
+        <TYPE>Review</TYPE>
+        <FEATURE>score</FEATURE>  
+        <POSITION>0</POSITION>  
+        <CLASS/>  
+     </ATTRIBUTE>  
+   </DATASET>  
+</ML-CONFIG> 
