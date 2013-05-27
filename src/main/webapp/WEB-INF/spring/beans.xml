@@ -24,9 +24,12 @@
 
     -->
 
-    <bean id="classificationController" class="org.vento.service.controller.ClassificationController">
+    <!--bean id="classificationController" class="org.vento.service.controller.ClassificationController">
         <property name="classificationWrapper" ref="classificationWrapper" />
-    </bean>
+    </bean-->
+
+    <!-- Twitter service -->
+    <bean id="twitter" factory-bean="twitterService" factory-method="getTwitter"/>
 
     <!-- GATE spring setup -->
 
