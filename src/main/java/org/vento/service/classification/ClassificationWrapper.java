@@ -16,11 +16,11 @@ import java.util.Iterator;
  * Time: 11:49
  * To change this template use File | Settings | File Templates.
  */
-public class ClassificationWrapper {
+public class ClassificationWrapper implements Analyser{
 
     private DocumentProcessor classifier;
 
-    public String classify(String text) {
+    public String process(String text) {
 
         Document tmpDocument = null;
 

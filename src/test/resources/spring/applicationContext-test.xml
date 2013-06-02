@@ -5,22 +5,40 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:mongo="http://www.springframework.org/schema/data/mongo" xmlns:gate="http://gate.ac.uk/ns/spring"
        xmlns:mvc="http://www.springframework.org/schema/task" xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
                   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
-                  http://gate.ac.uk/ns/spring http://gate.ac.uk/ns/spring.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+                    http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <mvc:annotation-driven />
+    <!--<bean id="twitterAdapter" class="org.vento.service.common.EasyMockFactoryBean">-->
+        <!--<property name="mockedClass" value="org.vento.service.twitter.TwitterAdapter"/>-->
+    <!--</bean>-->
 
-    <context:annotation-config />
+    <!--<bean id="classificationWrapper" class="org.vento.service.common.EasyMockFactoryBean">-->
+        <!--<property name="mockedClass" value="org.vento.service.classification.Analyser"/>-->
+    <!--</bean>-->
+
+    <!--bean id="twitterAdapter" class="org.easymock.EasyMock" factory-method="createMock">
+        <constructor-arg value="org.vento.service.twitter.TwitterAdapter"/>
+    </bean>
+
+    <bean id="classificationWrapper" class="org.easymock.EasyMock" factory-method="createMock">
+        <constructor-arg value="org.vento.service.classification.Analyser"/>
+    </bean-->
+
+
+
+    <mvc:annotation-driven/>
+
+    <context:annotation-config/>
     <context:component-scan base-package="org.vento.*"/>
 
-    <context:property-placeholder location="classpath:vento-service-rest.properties"/>
+    <!--context:property-placeholder location="classpath:vento-service-rest.properties"/-->
+
 
     <!--import resource="beans.xml" /-->
 
-    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+    <!--bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
         <property name="messageConverters">
             <util:list id="beanList">
                 <ref bean="stringHttpMessageConverter"/>
@@ -29,5 +47,5 @@
     </bean>
 
     <bean id="stringHttpMessageConverter"
-          class="org.springframework.http.converter.StringHttpMessageConverter"/>
+          class="org.springframework.http.converter.StringHttpMessageConverter"/-->
 </beans>

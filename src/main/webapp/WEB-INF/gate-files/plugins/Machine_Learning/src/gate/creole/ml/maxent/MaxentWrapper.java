@@ -355,7 +355,7 @@ public class MaxentWrapper
       // we don't end up with different indices for features after the class.
     attributeValues.remove(datasetDefinition.getClassIndex());
 
-    // Then try to classify stuff.
+    // Then try to process stuff.
     if (confidenceThreshold == 0) { // If no confidence threshold has been set
       // then just use simple classification.
       return maxentClassifier.

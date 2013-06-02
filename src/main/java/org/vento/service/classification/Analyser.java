@@ -8,4 +8,5 @@ package org.vento.service.classification;
  * To change this template use File | Settings | File Templates.
  */
 public interface Analyser {
+    String process(String input);
 }

@@ -828,7 +828,7 @@ public class LightWeightLearningApi extends Object implements Benchmarkable {
         }
         Benchmark.checkPoint(startTime, benchmarkID + "."
           + "readingNlpFeatures", this, benchmarkingFeatures);
-        // Check if the weka learner has distribute output of classify
+        // Check if the weka learner has distribute output of process
         boolean distributionOutput = WekaLearning
           .obtainWekaLearnerOutputType(engineSettings.learnerSettings.learnerName);
         // Get the wekaLearner from the learnername
@@ -1010,7 +1010,7 @@ public class LightWeightLearningApi extends Object implements Benchmarkable {
               labelsAndId.label2Id.size(), engineSettings.surround);
             break;
         }
-        // Check if the weka learner has distribute output of classify
+        // Check if the weka learner has distribute output of process
         boolean distributionOutput = WekaLearning
           .obtainWekaLearnerOutputType(engineSettings.learnerSettings.learnerName);
         // Get the wekaLearner from the learnername

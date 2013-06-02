@@ -64,7 +64,7 @@ public interface MLEngine {
   public Object classifyInstance(List attributes)throws ExecutionException;
 
   /**
-   * Like classify instances, but take a list of instances instead of a single
+   * Like process instances, but take a list of instances instead of a single
    * instance, and return a list of results (one for each instance) instead of
    * a single result.
    *

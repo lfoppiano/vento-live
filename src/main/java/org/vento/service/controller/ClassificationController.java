@@ -2,15 +2,15 @@ package org.vento.service.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.vento.service.classification.ClassificationWrapper;
+import org.springframework.web.bind.annotation.*;
+import org.vento.service.classification.Analyser;
+import org.vento.service.twitter.TwitterAdapter;
 import twitter4j.*;
 
 import java.io.IOException;
 import java.io.Writer;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,36 +23,42 @@ import java.util.Iterator;
 public class ClassificationController {
 
     @Autowired
-    private ClassificationWrapper classificationWrapper;
+    private Analyser classificationWrapper;
 
     @Autowired
-    private Twitter twitter;
+    private TwitterAdapter twitterAdapter;
 
-    @RequestMapping(value = "/classification", method = RequestMethod.POST)
+    @RequestMapping(value = "/classification/text", method = RequestMethod.POST)
     public void getClassification(@RequestBody String query, Writer writer) throws IOException {
-        writer.write(classificationWrapper.classify(query));
+        writer.write(classificationWrapper.process(query));
     }
 
-    @RequestMapping(value = "/classification/twitter", method = RequestMethod.POST)
-    public void getTwitterLive(@RequestBody String query, Writer writer) throws TwitterException, IOException {
-        Query twitterQuery = new Query(query);
-        QueryResult result = twitter.search(twitterQuery);
-        Iterator i = result.getTweets().iterator();
+    @RequestMapping(value = "/classification/twitter/query/{query}", method = RequestMethod.GET)
+    //@ResponseBody
+    public void getTwitterLive(@PathVariable String query, Writer writer) throws TwitterException, IOException {
+
+        List<String> statusList = twitterAdapter.search(query);
+
+        Iterator i = statusList.iterator();
+        String resultString = "";
 
         while(i.hasNext()) {
-            Status tweet = (Status) i.next();
-            String score = classificationWrapper.classify(tweet.getText());
-            String output = tweet.getText() + " " + score;
-            writer.append(output);
+            String tweet = (String) i.next();
+            String score = classificationWrapper.process(tweet);
+            String output = tweet + " " + score;
+            resultString += output + "\n";
         }
+
+        writer.append(resultString);
+        //return resultString;
     }
 
-    public void setClassificationWrapper(ClassificationWrapper classificationWrapper) {
+    public void setClassificationWrapper(Analyser classificationWrapper) {
         this.classificationWrapper = classificationWrapper;
     }
 
-    public void setTwitter(Twitter twitter) {
-        this.twitter = twitter;
+    public void setTwitterAdapter(TwitterAdapter twitterAdapter) {
+        this.twitterAdapter = twitterAdapter;
     }
 
 
