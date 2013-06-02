@@ -1,5 +1,6 @@
 package org.vento.service.twitter;
 
+import org.vento.model.Tweets;
 import twitter4j.TwitterException;
 
 import java.util.List;
@@ -13,6 +14,6 @@ import java.util.List;
  */
 public interface TwitterAdapter {
 
-    List<String> search(String query) throws TwitterException;
+    Tweets search(String query) throws TwitterException;
 
 }

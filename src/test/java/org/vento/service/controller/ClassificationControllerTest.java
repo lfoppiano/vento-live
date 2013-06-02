@@ -67,7 +67,7 @@ public class ClassificationControllerTest {
     @Test
     public void getFoo() throws Exception {
         expect(mockClassificationWrapper.process((String) EasyMock.anyObject())).andReturn("1.0");
-        expect(mockTwitterAdapter.search("nike")).andReturn(returnList);
+       // expect(mockTwitterAdapter.search("nike")).andReturn(returnList);
 
         replay(mockClassificationWrapper, mockTwitterAdapter);
 

@@ -19,15 +19,20 @@
     <context:property-placeholder location="classpath:vento-service-rest.properties"/>
 
     <import resource="beans.xml" />
+    <import resource="persistence.xml" />
 
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
         <property name="messageConverters">
             <util:list id="beanList">
                 <ref bean="stringHttpMessageConverter"/>
+                <ref bean="jacksonMessageConverter" />
             </util:list>
         </property>
     </bean>
 
     <bean id="stringHttpMessageConverter"
           class="org.springframework.http.converter.StringHttpMessageConverter"/>
+
+    <bean id="jacksonMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
+    <!--bean id="jacksonMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"/-->
 </beans>

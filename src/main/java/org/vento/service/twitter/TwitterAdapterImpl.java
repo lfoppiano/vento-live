@@ -2,6 +2,8 @@ package org.vento.service.twitter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.vento.model.Tweet;
+import org.vento.model.Tweets;
 import twitter4j.*;
 
 import java.util.ArrayList;
@@ -21,16 +23,19 @@ public class TwitterAdapterImpl implements TwitterAdapter {
     @Autowired
     private Twitter twitter;
 
-    public List<String> search(String query) throws TwitterException {
+    public Tweets search(String query) throws TwitterException {
         Query twitterQuery = new Query(query);
         QueryResult queryResult = twitter.search(twitterQuery);
         List<Status> statuses = queryResult.getTweets();
 
         Iterator i = statuses.iterator();
-        List<String> result = new ArrayList<String>();
+        Tweets result = new Tweets();
+
         while(i.hasNext()) {
-            Status tweet = (Status) i.next();
-            result.add(tweet.getText());
+            Status tweetString = (Status) i.next();
+            Tweet tweet = new Tweet();
+            tweet.setText(tweetString.getText());
+            result.getTweets().add(tweet);
         }
 
         return result;

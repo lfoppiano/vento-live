@@ -10,30 +10,10 @@
                   http://gate.ac.uk/ns/spring http://gate.ac.uk/ns/spring.xsd">
 
 
-
-    <!-- Live classification
-    <bean id="twitterLiveClassificationProcessor"
-          class="org.vento.crawler.twitter.processor.TwitterLiveClassificationProcessor">
-        <property name="classificationWrapper" ref="classificationWrapper" />
-    </bean>
-
-    <bean id="freetextLiveClassificationProcessor"
-          class="org.vento.sentiment.classification.processor.FreeTextLiveClassificationProcessor">
-        <property name="classificationWrapper" ref="classificationWrapper" />
-    </bean>
-
-    -->
-
-    <!--bean id="classificationController" class="org.vento.service.controller.ClassificationController">
-        <property name="classificationWrapper" ref="classificationWrapper" />
-    </bean-->
-
     <!-- Twitter service -->
     <bean id="twitter" factory-bean="twitterService" factory-method="getTwitter"/>
 
-    <!-- GATE spring setup -->
-
-    <!-- gate experiment -->
+    <!-- GATE -->
     <gate:init gate-home="${gate.home}"/>
 
     <gate:duplicate id="classificationApp">
@@ -48,10 +28,4 @@
     <bean id="classificationWrapper" class="org.vento.service.classification.ClassificationWrapper" >
         <property name="classifier" ref="gateProcessor" />
     </bean>
-
-    <!--bean id="gateClassificationProcessor"
-          class="org.vento.sentiment.classification.processor.SentiBatchClassificationProcessor">
-
-        <property name="classificationWrapper" ref="classificationWrapper"/>
-    </bean-->
 </beans>
