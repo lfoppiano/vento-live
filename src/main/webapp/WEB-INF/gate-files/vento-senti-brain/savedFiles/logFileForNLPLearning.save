@@ -9105,3 +9105,259 @@ Number of classes in model: 5
 9-giu-2013 13.08.01: The learning start at Sun Jun 09 13:08:01 CEST 2013
 9-giu-2013 13.08.01: The number of documents in dataset: 1
 9-giu-2013 13.08.01: This learning session finished!.
+9-giu-2013 15.26.51: 
+
+*************************
+A new session for NLP learning is starting: 20130609_152651file:/Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20130525_170119, 1290332secs ago)The initiliased time of NLP learning: Sun Jun 09 15:26:51 CEST 2013
+Working directory: /Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+9-giu-2013 15.28.13: 
+
+*************************
+A new session for NLP learning is starting: 20130609_152813file:/Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20130525_170119, 1290414secs ago)The initiliased time of NLP learning: Sun Jun 09 15:28:13 CEST 2013
+Working directory: /Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+9-giu-2013 15.28.38: 
+
+*************************
+A new session for NLP learning is starting: 20130609_152838file:/Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20130525_170119, 1290439secs ago)The initiliased time of NLP learning: Sun Jun 09 15:28:38 CEST 2013
+Working directory: /Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/develop/bi/vento-service-rest/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: Creating temp directory for application-mode files
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 77ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 17ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 16ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 37ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 9ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 11ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 8ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 7ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.
+9-giu-2013 15.28.39: 
+*** A new run starts.
+9-giu-2013 15.28.39: 
+The execution time (pre-processing the first document): Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: ** Application mode for document from 0 to 1(not included):
+9-giu-2013 15.28.39: 
+Application starts.
+9-giu-2013 15.28.39: Multi to binary conversion.
+9-giu-2013 15.28.39: The learners: PAUM
+9-giu-2013 15.28.39: One against others for multi to binary class conversion.
+Number of classes in model: 5
+9-giu-2013 15.28.39: Application time for class: 10ms
+9-giu-2013 15.28.39: The learning start at Sun Jun 09 15:28:39 CEST 2013
+9-giu-2013 15.28.39: The number of documents in dataset: 1
+9-giu-2013 15.28.39: This learning session finished!.

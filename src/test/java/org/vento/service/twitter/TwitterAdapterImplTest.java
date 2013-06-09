@@ -36,7 +36,7 @@ public class TwitterAdapterImplTest {
     }
 
     @Test
-    public void testSearchQueryShouldWork() throws TwitterException {
+    public void testSearchQueryNoLanguageShouldWork() throws TwitterException {
         List<Status> fakeReturn = new ArrayList<Status>();
         fakeReturn.add(DataObjectFactory.createStatus("{text: kernel is an important thing}"));
         Query fakeQuery = new Query("kernel");
@@ -45,7 +45,24 @@ public class TwitterAdapterImplTest {
 
         replay(mockTwitter, mockQueryResult);
 
-        Tweets returned = target.search("kernel");
+        Tweets returned = target.search("kernel", null);
+        assertEquals("kernel is an important thing", returned.getTweets().get(0).getText());
+
+        verify(mockTwitter, mockQueryResult);
+    }
+
+    @Test
+    public void testSearchQueryWithLanguageShouldWork() throws TwitterException {
+        List<Status> fakeReturn = new ArrayList<Status>();
+        fakeReturn.add(DataObjectFactory.createStatus("{text: kernel is an important thing}"));
+        Query fakeQuery = new Query("kernel");
+        fakeQuery.setLang("en");
+        expect(mockTwitter.search(fakeQuery)).andReturn(mockQueryResult);
+        expect(mockQueryResult.getTweets()).andReturn(fakeReturn);
+
+        replay(mockTwitter, mockQueryResult);
+
+        Tweets returned = target.search("kernel", "en");
         assertEquals("kernel is an important thing", returned.getTweets().get(0).getText());
 
         verify(mockTwitter, mockQueryResult);

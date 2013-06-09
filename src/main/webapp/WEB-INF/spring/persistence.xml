@@ -14,8 +14,14 @@
 
     <bean id="mongoOps" class="org.springframework.data.mongodb.core.MongoTemplate" >
         <constructor-arg index="0" type="com.mongodb.Mongo" ref="mongoConfig"/>
-        <constructor-arg index="1" type="java.lang.String" value="vento"/>
+        <constructor-arg index="1" type="java.lang.String" value="heroku_app10645215"/>
+        <constructor-arg index="2" type="org.springframework.data.authentication.UserCredentials" ref="userCredential" />
+    </bean>
+    <bean id="userCredential" class="org.springframework.data.authentication.UserCredentials">
+        <constructor-arg index="0" type="java.lang.String" value="grails" />
+        <constructor-arg index="1" type="java.lang.String" value="bao123" />
     </bean>
 
-    <mongo:mongo id="mongoConfig" host="localhost" port="27017"/>
+    <!--mongo:mongo id="mongoConfig" host="localhost" port="27017" /-->
+    <mongo:mongo id="mongoConfig" host="ds031747.mongolab.com" port="31747" />
 </beans>
