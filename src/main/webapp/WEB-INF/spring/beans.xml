@@ -28,4 +28,7 @@
     <bean id="classificationWrapper" class="org.vento.service.classification.ClassificationWrapper" >
         <property name="classifier" ref="gateProcessor" />
     </bean>
+
+    <!-- HTTP Filters -->
+    <bean id="corsFilter" class="org.vento.service.filter.CorsFilter" />
 </beans>

@@ -6,6 +6,16 @@
 
     <display-name>vento service rest</display-name>
 
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/spring/applicationContext.xml</param-value>
+    </context-param>
+
+    <!-- Creates the Spring Container shared by all Servlets and Filters -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
     <!-- Processes application requests -->
     <servlet>
         <servlet-name>appServlet</servlet-name>
@@ -22,14 +32,18 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <filter>
+        <filter-name>corsFilter</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
 
-    <!--context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>WEB-INF/spring/spring-context.xml</param-value>
-    </context-param>
-    <listener>
-        <listener-class>
-            org.springframework.web.context.ContextLoaderListener
-        </listener-class>
+    <filter-mapping>
+        <filter-name>corsFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!--listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+
     </listener-->
 </web-app>

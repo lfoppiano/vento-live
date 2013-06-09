@@ -62,8 +62,6 @@ public class ClassificationController {
         }
 
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Access-Control-Allow-Origin", "*");
-        headers.add("Access-Control-Allow-Headers", "*");
         return new ResponseEntity<Tweets>(statusList, headers, HttpStatus.ACCEPTED);
     }
 
