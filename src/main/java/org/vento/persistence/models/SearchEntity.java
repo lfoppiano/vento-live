@@ -13,8 +13,10 @@ public class SearchEntity {
 
     private String id;
     private String search;
-    private long timestamp;
 
+    private String lang;
+
+    private long timestamp;
     public SearchEntity(String search) {
         this.search = search;
         this.timestamp = new Date().getTime();
@@ -36,7 +38,11 @@ public class SearchEntity {
         return timestamp;
     }
 
+    public void setLang(String lang) {
+        this.lang = lang;
+    }
+
     public String toString() {
-        return "SearchEntity: id: " + id + ", search: " + search + ", timestamp: " + timestamp;
+        return "SearchEntity: id: " + id + ", search: " + search + ", lang" + lang + ", timestamp: " + timestamp;
     }
 }

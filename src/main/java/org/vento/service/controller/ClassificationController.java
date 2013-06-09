@@ -1,6 +1,10 @@
 package org.vento.service.controller;
 
+import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.vento.model.Tweet;
@@ -10,6 +14,7 @@ import org.vento.service.classification.Analyser;
 import org.vento.service.twitter.TwitterAdapter;
 import twitter4j.TwitterException;
 
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.Iterator;
@@ -36,21 +41,23 @@ public class ClassificationController {
         writer.write(classificationWrapper.process(query));
     }
 
-    @RequestMapping(value = "/classification/twitter/query/{query}", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/classification/twitter/query/{query}/lang/{lang}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
-    public Tweets getTwitterLive(@PathVariable String query) throws TwitterException, IOException {
+    public ResponseEntity<Tweets> getTwitterLive(@PathVariable String query, @PathVariable String lang) throws TwitterException, IOException {
 
         storageService.storeSearch(query);
 
-        Tweets statusList = twitterAdapter.search(query);
+        Tweets statusList = twitterAdapter.search(query, lang);
 
         for(Tweet t : statusList.getTweets()) {
             String score = classificationWrapper.process(t.getText());
             t.setScore(score);
         }
 
-        //writer.append(resultString);
-        return statusList;
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Access-Control-Allow-Origin", "*");
+        headers.add("Access-Control-Allow-Headers", "*");
+        return new ResponseEntity<Tweets>(statusList, headers, HttpStatus.ACCEPTED);
     }
 
     //@RequestMapping(value = "/classification/twitter/user/{userId}", method = RequestMethod.GET)

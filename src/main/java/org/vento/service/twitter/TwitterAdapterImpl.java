@@ -23,8 +23,12 @@ public class TwitterAdapterImpl implements TwitterAdapter {
     @Autowired
     private Twitter twitter;
 
-    public Tweets search(String query) throws TwitterException {
+    public Tweets search(String query, String lang) throws TwitterException {
+
         Query twitterQuery = new Query(query);
+        if(lang != null) {
+            twitterQuery.setLang(lang);
+        }
         QueryResult queryResult = twitter.search(twitterQuery);
         List<Status> statuses = queryResult.getTweets();
 

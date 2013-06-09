@@ -14,6 +14,6 @@ import java.util.List;
  */
 public interface TwitterAdapter {
 
-    Tweets search(String query) throws TwitterException;
+    Tweets search(String query, String lang) throws TwitterException;
 
 }
