@@ -37,8 +37,15 @@ public class ClassificationController {
     private StorageService storageService;
 
     @RequestMapping(value = "/classification/text", method = RequestMethod.POST)
-    public void getClassification(@RequestBody String query, Writer writer) throws IOException {
-        writer.write(classificationWrapper.process(query));
+    @ResponseBody
+    public ResponseEntity<String> getClassification(@RequestBody String query) throws IOException {
+        String output = classificationWrapper.process(query);
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Access-Control-Allow-Origin", "*");
+        headers.add("Access-Control-Allow-Headers", "*");
+
+        return new ResponseEntity<String>(output, headers, HttpStatus.ACCEPTED);
     }
 
     @RequestMapping(value = "/classification/twitter/query/{query}/lang/{lang}", method = RequestMethod.GET, produces = "application/json")
