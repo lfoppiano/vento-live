@@ -3,14 +3,14 @@
   <VERBOSITY level="0"/>
   <SURROUND value="false"/>
   <PARAMETER name="thresholdProbabilityClassification" 
-	     value="0.7"/> <!-- test with values 0.6, 0.7, 0.8 (0.9 or 1 might be too much) -->
+	     value="0.9"/> <!-- test with values 0.6, 0.7, 0.8 (0.9 or 1 might be too much) -->
   <multiClassification2Binary method="one-vs-others" thread-pool-size="5"/>
   <EVALUATION method="kfold"
 	      runs="5"
 	      ratio="0.66" />
   <ENGINE nickname="PAUM"
 	  implementationName="PAUM"
-	  options=" -p 50 -n 1 -optB 0.0  "/>          <!-- tested those params with batches of 500 docs per class, after a couple of cycles (5-6) all results more than 70% and rising-->
+	  options=" -p 80 -n 1 -optB 0.0  "/>          <!-- tested those params with batches of 500 docs per class, after a couple of cycles (5-6) all results more than 70% and rising-->
   <DATASET>                                        <!-- params: " -p 80 -n 1 -optB 0.0 " with batches of 1000 per class give also good results, after 3 cycles all results more than 80% but 1.0 falling down, to be tested-->
     <INSTANCE-TYPE>Review</INSTANCE-TYPE>  
     <NGRAM>

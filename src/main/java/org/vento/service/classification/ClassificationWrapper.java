@@ -6,6 +6,7 @@ import gate.Factory;
 import gate.util.DocumentProcessor;
 import gate.util.GateException;
 import org.apache.commons.lang.StringEscapeUtils;
+import org.vento.common.lang.StringProcessor;
 
 import java.util.Iterator;
 
@@ -24,8 +25,10 @@ public class ClassificationWrapper implements Analyser{
 
         Document tmpDocument = null;
 
-        text = StringEscapeUtils.escapeXml(text);
-        float result = 0.0f;
+        text = StringProcessor.preProcessingString(text);
+        text = StringProcessor.standardizeTweets(text);
+
+        float result = 2.0f;
         try {
             tmpDocument = Factory.newDocument(("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<twit>\n<text>" + text + "</text>\n</twit>"));
             classifier.processDocument(tmpDocument);

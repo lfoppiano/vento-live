@@ -1,0 +1,3 @@
+Class(es) ngram
+0 GATE_Document 1
+0 _ngram_!__NA_.<><>1 _ngram_.__NA_.<><>3 _ngram_berlusconi_upperInitial_NNP<><>1 _ngram_bye_lowercase_NN<><>2 _ngram_can_lowercase_MD<><>1 _ngram_forward_lowercase_RB<><>1 _ngram_future_lowercase_JJ<><>1 _ngram_head_lowercase_NN<><>1 _ngram_italy_upperInitial_NNP<><>1 _ngram_look_lowercase_VB<><>1 _ngram_meet_lowercase_VBG<><>1 _ngram_mr_upperInitial_NNP<><>1 _ngram_now_lowercase_RB<><>1 _ngram_on_lowercase_IN<><>1 _ngram_so_upperInitial_RB<><>2 _ngram_the_lowercase_DT<><>1 _ngram_to_lowercase_TO<><>1
