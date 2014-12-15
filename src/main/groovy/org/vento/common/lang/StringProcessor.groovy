@@ -26,7 +26,7 @@ public class StringProcessor {
 
     }
 
-    /** general standardization string process **/
+    /** general standardization string classify **/
     public static String preProcessingString(String text) {
         text = StringEscapeUtils.escapeXml(text);
 
@@ -38,7 +38,7 @@ public class StringProcessor {
         return text
     }
 
-    /** Specific twitter standardization process **/
+    /** Specific twitter standardization classify **/
     public static String standardizeTweets(String text) {
         //Remove recipients
         text = text.replaceAll(/@\w+(:)?/, '_USER_')

@@ -7,6 +7,6 @@ package org.vento.service.classification;
  * Time: 15:34
  * To change this template use File | Settings | File Templates.
  */
-public interface Analyser {
-    String process(String input);
+public interface Classifier {
+    String classify(String input);
 }

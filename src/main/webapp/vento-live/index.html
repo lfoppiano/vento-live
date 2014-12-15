@@ -1,0 +1,63 @@
+<html ng-app lang="en">
+<head>
+    <script src="js/libs/angular/angular.min.js"></script>
+    <script src="js/libs/controllers/SearchController.js"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/angular/1.0.7/angular-resource.min.js" /-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/bootstrap-footer.css" rel="stylesheet" media="screen">
+
+    <title>Vento Live</title>
+</head>
+<body>
+
+<div id="wrap">
+    <div class="container">
+
+        <legend>Twitter live sentiment analysis</legend>
+
+        <div ng-controller="SearchController">
+
+            <div class="row">
+                <div class="span3">
+                    <form novalidate class="css-form" ng-submit="newSearch(searchQuery)">
+                        <input type="text" ng-model="searchQuery" class="search-query"> </input>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span3">Summary</div>
+                <div class="span4">Positives: </div>
+                <div class="span5">Negatives: </div>
+            </div>
+
+            <table id="table" class="table table-striped" g-controller="resultController">
+                <thead>
+                <tr>
+                    <th>Text</th>
+                    <th>Score</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="tweet in tweets">
+                    <td>{{tweet.text}}</td>
+                    <td>{{tweet.score}}</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+
+        <div id="push"></div>
+        <div id="footer">
+            <p class="muted credit">Powered by Vento statistics</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

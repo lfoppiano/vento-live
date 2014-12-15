@@ -10,8 +10,11 @@
                   http://gate.ac.uk/ns/spring http://gate.ac.uk/ns/spring.xsd">
 
 
+
     <!-- Twitter service -->
-    <bean id="twitter" factory-bean="twitterService" factory-method="getTwitter"/>
+    <bean id="twitter" class="org.vento.service.twitter.TwitterService"/>
+
+    <bean id="twitterService" class="org.vento.service.twitter.TwitterService" factory-bean="twitter" factory-method="getTwitter"/>
 
     <!-- GATE -->
     <gate:init gate-home="${gate.home}"/>
@@ -25,7 +28,7 @@
         <gate:pooled-proxy max-size="10"/>
     </bean>
 
-    <bean id="classificationWrapper" class="org.vento.service.classification.ClassificationWrapper" >
+    <bean id="classificationWrapper" class="org.vento.service.classification.GateClassifier" >
         <property name="classifier" ref="gateProcessor" />
     </bean>
 

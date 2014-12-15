@@ -19672,3 +19672,744 @@ Number of classes in model: 5
 27-mag-2014 16.13.25: The learning start at Tue May 27 16:13:25 CEST 2014
 27-mag-2014 16.13.25: The number of documents in dataset: 1
 27-mag-2014 16.13.25: This learning session finished!.
+15-dic-2014 18.17.54: 
+
+*************************
+A new session for NLP learning is starting: 20141215_181754file:/Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11668276secs ago)The initiliased time of NLP learning: Mon Dec 15 18:17:54 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+15-dic-2014 23.48.26: 
+
+*************************
+A new session for NLP learning is starting: 20141215_234826file:/Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11688108secs ago)The initiliased time of NLP learning: Mon Dec 15 23:48:26 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+15-dic-2014 23.54.04: 
+
+*************************
+A new session for NLP learning is starting: 20141215_235404file:/Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11688446secs ago)The initiliased time of NLP learning: Mon Dec 15 23:54:04 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/vento-rest-service/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.43.48: 
+
+*************************
+A new session for NLP learning is starting: 20141217_194348file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846230secs ago)The initiliased time of NLP learning: Wed Dec 17 19:43:48 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.43.50: 
+
+*************************
+A new session for NLP learning is starting: 20141217_194350file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846232secs ago)The initiliased time of NLP learning: Wed Dec 17 19:43:50 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.45.39: 
+
+*************************
+A new session for NLP learning is starting: 20141217_194539file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846341secs ago)The initiliased time of NLP learning: Wed Dec 17 19:45:39 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.45.41: 
+
+*************************
+A new session for NLP learning is starting: 20141217_194541file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846343secs ago)The initiliased time of NLP learning: Wed Dec 17 19:45:41 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.47.21: 
+
+*************************
+A new session for NLP learning is starting: 20141217_194721file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846443secs ago)The initiliased time of NLP learning: Wed Dec 17 19:47:21 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.47.23: 
+
+*************************
+A new session for NLP learning is starting: 20141217_194723file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846445secs ago)The initiliased time of NLP learning: Wed Dec 17 19:47:23 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.50.00: 
+
+*************************
+A new session for NLP learning is starting: 20141217_195000file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846602secs ago)The initiliased time of NLP learning: Wed Dec 17 19:50:00 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.50.02: 
+
+*************************
+A new session for NLP learning is starting: 20141217_195002file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846604secs ago)The initiliased time of NLP learning: Wed Dec 17 19:50:02 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.53.05: 
+
+*************************
+A new session for NLP learning is starting: 20141217_195305file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846787secs ago)The initiliased time of NLP learning: Wed Dec 17 19:53:05 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.53.07: 
+
+*************************
+A new session for NLP learning is starting: 20141217_195307file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846789secs ago)The initiliased time of NLP learning: Wed Dec 17 19:53:07 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.55.35: 
+
+*************************
+A new session for NLP learning is starting: 20141217_195535file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846937secs ago)The initiliased time of NLP learning: Wed Dec 17 19:55:35 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 19.55.39: 
+
+*************************
+A new session for NLP learning is starting: 20141217_195539file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11846941secs ago)The initiliased time of NLP learning: Wed Dec 17 19:55:39 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.08.51: 
+
+*************************
+A new session for NLP learning is starting: 20141217_200851file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11847733secs ago)The initiliased time of NLP learning: Wed Dec 17 20:08:51 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.08.54: 
+
+*************************
+A new session for NLP learning is starting: 20141217_200854file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11847736secs ago)The initiliased time of NLP learning: Wed Dec 17 20:08:54 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.13.17: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201317file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11847999secs ago)The initiliased time of NLP learning: Wed Dec 17 20:13:17 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.13.19: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201319file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11848001secs ago)The initiliased time of NLP learning: Wed Dec 17 20:13:19 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.14.32: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201432file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11848074secs ago)The initiliased time of NLP learning: Wed Dec 17 20:14:32 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.14.34: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201434file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11848076secs ago)The initiliased time of NLP learning: Wed Dec 17 20:14:34 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.15.43: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201543file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11848145secs ago)The initiliased time of NLP learning: Wed Dec 17 20:15:43 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.15.45: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201545file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11848147secs ago)The initiliased time of NLP learning: Wed Dec 17 20:15:45 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.17.12: 
+
+*************************
+A new session for NLP learning is starting: 20141217_201712file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11848234secs ago)The initiliased time of NLP learning: Wed Dec 17 20:17:12 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.33.42: 
+
+*************************
+A new session for NLP learning is starting: 20141217_203342file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11849224secs ago)The initiliased time of NLP learning: Wed Dec 17 20:33:42 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.34.09: 
+
+*************************
+A new session for NLP learning is starting: 20141217_203409file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11849251secs ago)The initiliased time of NLP learning: Wed Dec 17 20:34:09 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.34.27: 
+
+*************************
+A new session for NLP learning is starting: 20141217_203427file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11849269secs ago)The initiliased time of NLP learning: Wed Dec 17 20:34:27 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: Creating temp directory for application-mode files
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 67ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 6ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 4ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 16ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 5ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 5ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 292ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 5ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 4ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 5ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 5ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 5ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 7ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.27: 
+*** A new run starts.
+17-dic-2014 20.34.27: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.27: 
+Application starts.
+17-dic-2014 20.34.27: Multi to binary conversion.
+17-dic-2014 20.34.27: The learners: PAUM
+17-dic-2014 20.34.27: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.27: Application time for class: 4ms
+17-dic-2014 20.34.27: The learning start at Wed Dec 17 20:34:27 CET 2014
+17-dic-2014 20.34.27: The number of documents in dataset: 1
+17-dic-2014 20.34.27: This learning session finished!.
+17-dic-2014 20.34.28: 
+*** A new run starts.
+17-dic-2014 20.34.28: 
+The execution time (pre-processing the first document): Wed Dec 17 20:34:28 CET 2014
+17-dic-2014 20.34.28: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.34.28: 
+Application starts.
+17-dic-2014 20.34.28: Multi to binary conversion.
+17-dic-2014 20.34.28: The learners: PAUM
+17-dic-2014 20.34.28: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.34.28: Application time for class: 4ms
+17-dic-2014 20.34.28: The learning start at Wed Dec 17 20:34:28 CET 2014
+17-dic-2014 20.34.28: The number of documents in dataset: 1
+17-dic-2014 20.34.28: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 5ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 5ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 10ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 4ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 6ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 9ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 5ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 7ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 8ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 6ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 5ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 4ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 5ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 5ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.35.18: 
+*** A new run starts.
+17-dic-2014 20.35.18: 
+The execution time (pre-processing the first document): Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: ** Application mode for document from 0 to 1(not included):
+17-dic-2014 20.35.18: 
+Application starts.
+17-dic-2014 20.35.18: Multi to binary conversion.
+17-dic-2014 20.35.18: The learners: PAUM
+17-dic-2014 20.35.18: One against others for multi to binary class conversion.
+Number of classes in model: 5
+17-dic-2014 20.35.18: Application time for class: 4ms
+17-dic-2014 20.35.18: The learning start at Wed Dec 17 20:35:18 CET 2014
+17-dic-2014 20.35.18: The number of documents in dataset: 1
+17-dic-2014 20.35.18: This learning session finished!.
+17-dic-2014 20.38.54: 
+
+*************************
+A new session for NLP learning is starting: 20141217_203854file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11849536secs ago)The initiliased time of NLP learning: Wed Dec 17 20:38:54 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false
+17-dic-2014 20.38.58: 
+
+*************************
+A new session for NLP learning is starting: 20141217_203858file:/Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/paum.xml (saved 20140802_180638, 11849540secs ago)The initiliased time of NLP learning: Wed Dec 17 20:38:58 CET 2014
+Working directory: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain
+The feature files and models are saved at: /Users/lfoppiano/development/bi/vento-live/src/main/webapp/WEB-INF/gate-files/vento-senti-brain/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): false

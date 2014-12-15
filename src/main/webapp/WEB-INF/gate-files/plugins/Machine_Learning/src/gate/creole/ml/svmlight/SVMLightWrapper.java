@@ -163,7 +163,7 @@ public class SVMLightWrapper
       // If no training examples have been added yet.
       if (trainingData.size() == 0)
         throw new ExecutionException("An attempt has been made to use an SVM " +
-                                     "Light model to process data before the " +
+                                     "Light model to classify data before the " +
                                      "model was been trained. At least one " +
                                      "training example must be provided.");
 
@@ -177,10 +177,10 @@ public class SVMLightWrapper
       // have to retrain the model if using the same data.
       datasetChanged = false;
 
-      // Before we process, we need to save the test data to the disk.
+      // Before we classify, we need to save the test data to the disk.
       saveTestInstanceToDisk(attributeValues);
 
-      // Then try to process stuff. There is no option to use a confidence
+      // Then try to classify stuff. There is no option to use a confidence
       // threshold, so we will just get a simple prediction for the class.
       // This function call returns a string or double.
       // First convert the attribute values to an SVM Light document (the value
@@ -195,7 +195,7 @@ public class SVMLightWrapper
                                         resultsFile.getPath()});
 
         // We need to read the standard output and error streams, otherwise
-        // the process won't run.
+        // the classify won't run.
         java.io.BufferedReader stdOutput = new java.io.BufferedReader(new
             java.io.InputStreamReader(svmLightProcess.getInputStream()));
         java.io.BufferedReader stdError = new java.io.BufferedReader(new
@@ -210,7 +210,7 @@ public class SVMLightWrapper
         while ( (string = stdError.readLine()) != null)
           System.out.println(string);
 
-      // Then wait until the process has completely finished.
+      // Then wait until the classify has completely finished.
       svmLightProcess.waitFor();
       }  catch (Exception ex) {
         modelTrained = false;
@@ -267,7 +267,7 @@ public class SVMLightWrapper
       // If no training examples have been added yet.
       if (trainingData.size() == 0)
         throw new ExecutionException("An attempt has been made to use an SVM " +
-                                     "Light model to process data before the " +
+                                     "Light model to classify data before the " +
                                      "model was been trained. At least one " +
                                      "training example must be provided.");
 
@@ -281,10 +281,10 @@ public class SVMLightWrapper
       // have to retrain the model if using the same data.
       datasetChanged = false;
 
-      // Before we process, we need to save all the test data to the disk.
+      // Before we classify, we need to save all the test data to the disk.
       saveAllTestInstancesToDisk(instances);
 
-      // Then try to process stuff. There is no option to use a confidence
+      // Then try to classify stuff. There is no option to use a confidence
       // threshold, so we will just get a simple prediction for the class.
       // This function call returns a string or double.
       // First convert the attribute values to an SVM Light document (the value
@@ -299,7 +299,7 @@ public class SVMLightWrapper
                                         resultsFile.getPath()});
 
         // We need to read the standard output and error streams, otherwise
-        // the process won't run.
+        // the classify won't run.
         java.io.BufferedReader stdOutput = new java.io.BufferedReader(new
             java.io.InputStreamReader(svmLightProcess.getInputStream()));
         java.io.BufferedReader stdError = new java.io.BufferedReader(new
@@ -314,7 +314,7 @@ public class SVMLightWrapper
         while ( (string = stdError.readLine()) != null)
           System.out.println(string);
 
-          // Then wait until the process has completely finished.
+          // Then wait until the classify has completely finished.
         svmLightProcess.waitFor();
       }
       catch (Exception ex) {
@@ -494,10 +494,10 @@ public class SVMLightWrapper
           + classifierOptions));
 
       if (DEBUG)
-        System.out.println("SVM_LEARN process started");
+        System.out.println("SVM_LEARN classify started");
 
       // We need to read the standard output and error streams, otherwise
-      // the process won't run.
+      // the classify won't run.
       java.io.BufferedReader stdOutput = new java.io.BufferedReader(new
           java.io.InputStreamReader(svmLightProcess.getInputStream()));
       java.io.BufferedReader stdError = new java.io.BufferedReader(new
@@ -520,7 +520,7 @@ public class SVMLightWrapper
         System.out.println(string);
       }
 
-      // Wait until the process has completely finished.
+      // Wait until the classify has completely finished.
       svmLightProcess.waitFor();
 
       if(DEBUG)

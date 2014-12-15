@@ -5,7 +5,6 @@ import gate.Document;
 import gate.Factory;
 import gate.util.DocumentProcessor;
 import gate.util.GateException;
-import org.apache.commons.lang.StringEscapeUtils;
 import org.vento.common.lang.StringProcessor;
 
 import java.util.Iterator;
@@ -17,11 +16,11 @@ import java.util.Iterator;
  * Time: 11:49
  * To change this template use File | Settings | File Templates.
  */
-public class ClassificationWrapper implements Analyser{
+public class GateClassifier implements Classifier {
 
     private DocumentProcessor classifier;
 
-    public String process(String text) {
+    public String classify(String text) {
 
         Document tmpDocument = null;
 

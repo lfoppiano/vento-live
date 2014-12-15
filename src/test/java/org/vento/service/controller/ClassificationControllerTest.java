@@ -14,9 +14,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.context.WebApplicationContext;
-import org.vento.service.classification.Analyser;
+import org.vento.service.classification.Classifier;
 import org.vento.service.twitter.TwitterAdapter;
-import org.vento.service.twitter.TwitterAdapterImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +50,7 @@ public class ClassificationControllerTest {
     private TwitterAdapter mockTwitterAdapter;
 
     @Autowired
-    private Analyser mockClassificationWrapper;
+    private Classifier mockClassificationWrapper;
 
     List<String> returnList;
 
@@ -66,7 +65,7 @@ public class ClassificationControllerTest {
     @Ignore
     @Test
     public void getFoo() throws Exception {
-        expect(mockClassificationWrapper.process((String) EasyMock.anyObject())).andReturn("1.0");
+        expect(mockClassificationWrapper.classify((String) EasyMock.anyObject())).andReturn("1.0");
        // expect(mockTwitterAdapter.search("nike")).andReturn(returnList);
 
         replay(mockClassificationWrapper, mockTwitterAdapter);

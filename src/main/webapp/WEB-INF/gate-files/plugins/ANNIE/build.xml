@@ -14,13 +14,13 @@
   <!-- Sources -->
   <property name="srcDir" location="src"/>
   
-  <!-- Output directory for the build process -->
+  <!-- Output directory for the build classify -->
   <property name="outputDir"  location="classes"/>
 
-  <!-- Libraries directory for the build process -->
+  <!-- Libraries directory for the build classify -->
   <property name="libDir"  location="lib"/>
   
-  <!-- Extensions directory for the build process -->
+  <!-- Extensions directory for the build classify -->
   <property name="extDir"  location="lib/ext"/>
 
   <!-- Documentation directory -->

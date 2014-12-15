@@ -262,7 +262,7 @@ public class MachineLearningPR extends AbstractLanguageAnalyser
       }
 
       // Now all the data is collected in instances to be classified, we can
-      // actually get the wrapper to process them.
+      // actually get the wrapper to classify them.
       List classificationResults = engine.batchClassifyInstances(
           instancesToBeClassified);
 

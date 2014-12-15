@@ -1,6 +1,5 @@
 package org.vento.service.controller;
 
-import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -10,14 +9,11 @@ import org.springframework.web.bind.annotation.*;
 import org.vento.model.Tweet;
 import org.vento.model.Tweets;
 import org.vento.persistence.dao.StorageService;
-import org.vento.service.classification.Analyser;
+import org.vento.service.classification.Classifier;
 import org.vento.service.twitter.TwitterAdapter;
 import twitter4j.TwitterException;
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.Writer;
-import java.util.Iterator;
 
 /**
  * Created with IntelliJ IDEA.
@@ -27,19 +23,20 @@ import java.util.Iterator;
  * To change this template use File | Settings | File Templates.
  */
 @Controller
+@RequestMapping(value = "/classification")
 public class ClassificationController {
 
     @Autowired
-    private Analyser classificationWrapper;
+    private Classifier classificationWrapper;
     @Autowired
     private TwitterAdapter twitterAdapter;
     @Autowired
     private StorageService storageService;
 
-    @RequestMapping(value = "/classification/text", method = RequestMethod.POST)
+    @RequestMapping(value = "/text", method = RequestMethod.POST)
     @ResponseBody
     public ResponseEntity<String> getClassification(@RequestBody String query) throws IOException {
-        String output = classificationWrapper.process(query);
+        String output = classificationWrapper.classify(query);
 
         HttpHeaders headers = new HttpHeaders();
         headers.add("Access-Control-Allow-Origin", "*");
@@ -48,7 +45,7 @@ public class ClassificationController {
         return new ResponseEntity<String>(output, headers, HttpStatus.ACCEPTED);
     }
 
-    @RequestMapping(value = "/classification/twitter/query/{query}/lang/{lang}", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/twitter/query/{query}/lang/{lang}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public ResponseEntity<Tweets> getTwitterLive(@PathVariable String query, @PathVariable String lang) throws TwitterException, IOException {
 
@@ -56,8 +53,8 @@ public class ClassificationController {
 
         Tweets statusList = twitterAdapter.search(query, lang);
 
-        for(Tweet t : statusList.getTweets()) {
-            String score = classificationWrapper.process(t.getText());
+        for (Tweet t : statusList.getTweets()) {
+            String score = classificationWrapper.classify(t.getText());
             t.setScore(score);
         }
 
@@ -65,10 +62,8 @@ public class ClassificationController {
         return new ResponseEntity<Tweets>(statusList, headers, HttpStatus.ACCEPTED);
     }
 
-    //@RequestMapping(value = "/classification/twitter/user/{userId}", method = RequestMethod.GET)
-    // twitter4j.examples.timeline.GetHomeTimeline.java
 
-    public void setClassificationWrapper(Analyser classificationWrapper) {
+    public void setClassificationWrapper(Classifier classificationWrapper) {
         this.classificationWrapper = classificationWrapper;
     }
 
