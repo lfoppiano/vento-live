@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.vento.model.Tweet;
 import org.vento.model.Tweets;
-import org.vento.persistence.dao.StorageService;
+import org.vento.persistence.search.SearchStorageService;
 import org.vento.service.classification.Classifier;
 import org.vento.service.twitter.TwitterAdapter;
 import twitter4j.TwitterException;
@@ -31,7 +31,7 @@ public class ClassificationController {
     @Autowired
     private TwitterAdapter twitterAdapter;
     @Autowired
-    private StorageService storageService;
+    private SearchStorageService searchStorageService;
 
     @RequestMapping(value = "/text", method = RequestMethod.POST)
     @ResponseBody
@@ -49,7 +49,7 @@ public class ClassificationController {
     @ResponseBody
     public ResponseEntity<Tweets> getTwitterLive(@PathVariable String query, @PathVariable String lang) throws TwitterException, IOException {
 
-        storageService.storeSearch(query);
+        searchStorageService.storeSearch(query);
 
         Tweets statusList = twitterAdapter.search(query, lang);
 

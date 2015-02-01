@@ -1,9 +1,9 @@
-package org.vento.persistence.dao;
+package org.vento.persistence.search.dao;
 
-import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.data.mongodb.core.MongoOperations;
+import org.vento.persistence.search.SearchStorageService;
 
 import static org.easymock.EasyMock.*;
 import static org.easymock.EasyMock.replay;
@@ -15,9 +15,9 @@ import static org.easymock.EasyMock.replay;
  * Time: 23:28
  * To change this template use File | Settings | File Templates.
  */
-public class StorageServiceTest {
+public class SearchStorageServiceTest {
 
-    StorageService target;
+    SearchStorageService target;
 
     MongoOperations mockMongoOperations;
 
@@ -25,7 +25,7 @@ public class StorageServiceTest {
     public void setUp() throws Exception {
         mockMongoOperations = createMock(org.springframework.data.mongodb.core.MongoOperations.class);
 
-        target = new StorageService();
+        target = new SearchStorageService();
         target.setMongoOps(mockMongoOperations);
     }
 

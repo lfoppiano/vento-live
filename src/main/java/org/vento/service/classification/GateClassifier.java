@@ -25,7 +25,7 @@ public class GateClassifier implements Classifier {
         Document tmpDocument = null;
 
         text = StringProcessor.preProcessingString(text);
-        text = StringProcessor.standardizeTweets(text);
+        text = StringProcessor.normalize(text);
 
         float result = 2.0f;
         try {

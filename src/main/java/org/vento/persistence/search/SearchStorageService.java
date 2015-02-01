@@ -1,9 +1,7 @@
-package org.vento.persistence.dao;
+package org.vento.persistence.search;
 
-import com.mongodb.Mongo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;
 import org.vento.persistence.models.SearchEntity;
 
@@ -17,7 +15,7 @@ import java.net.UnknownHostException;
  * To change this template use File | Settings | File Templates.
  */
 @Repository
-public class StorageService {
+public class SearchStorageService {
 
     @Autowired
     private MongoOperations mongoOps;
