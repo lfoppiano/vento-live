@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+        jaxb:version="2.0"
+        jaxb:extensionBindingPrefixes="xjc"
+        xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+        elementFormDefault="unqualified"
+        version="2.0"
+        id="twitter-model">
+
+    <xs:annotation>
+        <xs:appinfo>
+            <jaxb:globalBindings>
+                <xjc:simple />
+                <xjc:serializable />
+            </jaxb:globalBindings>
+            <jaxb:schemaBindings>
+                <jaxb:package name="org.vento.model" />
+            </jaxb:schemaBindings>
+        </xs:appinfo>
+    </xs:annotation>
+
+    <xs:element name="tweets">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tweet" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="ScoreHistory">
+        <xs:sequence>
+            <xs:element name="timestamp" type="xs:dateTime" />
+            <xs:element name="value" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="tweet" type="Tweet" />
+    <xs:element name="scoreHistory" type="ScoreHistory" />
+
+    <!-- TODO: Add the type of the Tweet (twitter, facebook, amazon review -->
+    <!-- TODO: rename it to make it more generic -->
+    <xs:complexType name="Tweet">
+        <xs:sequence>
+            <xs:element name="twitter_id" type="xs:string" />
+            <xs:element name="text" type="xs:string" />
+            <xs:element name="geo" type="xs:string" minOccurs="0"/>
+            <xs:element name="to_user_id_str" type="xs:string" minOccurs="0"/>
+            <xs:element name="source" type="xs:string" minOccurs="0"/>
+            <xs:element name="iso_language_code" type="xs:string" />
+            <xs:element name="from_user_id_str" type="xs:string" minOccurs="0"/>
+            <xs:element name="query" type="xs:string" minOccurs="0"/>
+            <xs:element name="from_user" type="xs:string" minOccurs="0"/>
+            <xs:element name="score" type="xs:string" minOccurs="0" />
+            <!-- To use as score with manually classified twits -->
+            <xs:element name="reference_score" type="xs:string" minOccurs="0" />
+            <!-- timestamp to make it required, in future -->
+            <xs:element ref="scoreHistory" maxOccurs="unbounded"/>
+            <xs:element name="type" type="xs:string" minOccurs="0" />
+            <xs:element name="created_at" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
+

@@ -30,13 +30,6 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Our dependencies -->
-        <dependency>
-            <groupId>org.vento.commons</groupId>
-            <artifactId>vento-models</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
         <!-- testing -->
         <!--dependency>
             <groupId>junit</groupId>
@@ -215,6 +208,23 @@
 
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.8.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <extension>true</extension>
+                    <strict>false</strict>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
