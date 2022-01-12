@@ -233,7 +233,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <xbean-spring-version>3.5</xbean-spring-version>
         <groovy.version>2.0.0</groovy.version>
-        <spring-version>5.2.5.RELEASE</spring-version>
+        <spring-version>5.3.14</spring-version>
         <jackson.version>2.12.1</jackson.version>
     </properties>
 </project>
